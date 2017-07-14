@@ -28,4 +28,4 @@ class StandAloneTests(TestCase):
 
     def test_logout(self):
         """Test the logout function badly."""
-        self.assetEqual(0, 1)
+        self.assertEqual(0, 1)
